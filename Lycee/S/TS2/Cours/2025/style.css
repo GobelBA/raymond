@@ -7,7 +7,6 @@
 
 body {
     background-color: #f0f0f0;
-    color: #c51818;
     line-height: 1.4;
     padding: 20px;
 }
@@ -23,11 +22,13 @@ h1 {
     margin-bottom: 25px;
     text-decoration: underline;
     text-align: center;
+    color: #cf2c2c;
 }
 
 .section-title {
     font-size: 18px;
     margin: 20px 0 15px;
+    color: rgb(245, 0, 0);
     font-weight: bold;
     text-decoration: underline;
 }
@@ -35,12 +36,14 @@ h1 {
 .subsection-title {
     font-size: 16px;
     margin: 15px 0 10px 15px;
+    color: #cf2c2c;
     font-weight: bold;
 }
 
 .subsubsection-title {
     font-size: 15px;
     margin: 12px 0 8px 30px;
+    color: #cf2c2c;
     font-weight: bold;
 }
 
@@ -48,4 +51,5 @@ h1 {
     font-size: 15px;
     margin: 10px 0 5px 30px;
     font-style: italic;
+    color: #cf2c2c;
 }
