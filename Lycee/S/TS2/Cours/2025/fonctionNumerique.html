@@ -37,15 +37,37 @@
                         si les valeurs de \( f(x) \) peuvent être rendues aussi proches que l'on veut de \( \ell \) pour
                         des
                         valeurs de \( x \) suffisamment grandes.</p>
-                    <p>\( \lim\limits_{x\to +\infty} f(x) = \ell \)</p>
+                    <p>On écrit :\( \lim\limits_{x\to +\infty} f(x) = \ell \)</p>
                     <p>$\textbf{NB :}$ Même démarche en \( -\infty \).</p>
                 </div>
 
                 <div class="subsubsection">
                     <div class="subsubsection-title">b. Limite infinie</div>
+                    <p> On dit que la fonction $f$ admet pour limite $+\infty$, lorsque $x$ tend vers $+\infty$, si les
+                        valeurs $f(x)$ peuvent être rendues aussi grandes que l'on veut pour des valeurs de $x$
+                        suffisamment
+                        grandes.</p>
+
+                    <p> On écrit : \( \lim\limits_{x \to +\infty} f(x) = +\infty \)</p>
+                    <p>$\textbf{NB :}$ Même démarche en $-\infty$.</p>
                 </div>
 
                 <div class="propriete">Propriétés des limites à l'infini</div>
+
+                <ol>
+                    <li>Les fonctions du type $x \mapsto \sqrt{x}$ et $x \mapsto x^n$ ($n \in \mathbb{N}^*$) ont pour
+                        limite $+\infty$ quand $x$ tend vers $+\infty$.
+                        En notation mathématique formelle, on écrirait :
+                        $$ \lim_{x \to +\infty} \sqrt{x} = +\infty \quad \text{et} \quad \lim_{x \to +\infty} x^n =
+                        +\infty
+                        \text{ pour tout } n \in \mathbb{N}^* $$</li>
+                    <li>Les fonctions du type $x \mapsto \frac{1}{\sqrt{x}}$ et $x \mapsto \frac{1}{x^n}$ ($n \in
+                        \mathbb{N}^*$) ont pour limite
+                        $0$ quand $x$ tend vers $+\infty$.
+                        En notation mathématique formelle, on écrirait :
+                        $$ \lim_{x \to +\infty} \frac{1}{\sqrt{x}} = 0 \quad \text{et} \quad \lim_{x \to +\infty}
+                        \frac{1}{x^n} = 0 \text{ pour tout } n \in \mathbb{N}^* $$</li>
+                </ol>
             </div>
 
             <div class="subsection">
@@ -53,14 +75,55 @@
 
                 <div class="subsubsection">
                     <div class="subsubsection-title">a. Limite finie</div>
+                    <p>On dit que la fonction $f$ admet pour limite $+\infty$, lorsque $x$ tend vers $a$ ($a \in
+                        \mathbb{R}$), si les valeurs $f(x)$ peuvent être rendues aussi grandes que l'on veut pour des
+                        valeurs de $x$ suffisamment proches de $a$.</p>
+
+                    <p>On écrit : \( \lim\limits_{x \to a} f(x) = +\infty \)</p>
                 </div>
 
                 <div class="subsubsection">
                     <div class="subsubsection-title">b. Limite infinie</div>
+                    <p>Soit $l$ un nombre réel, on dit que la fonction $f$ admet pour limite $l$, lorsque $x$ tend vers
+                        $a$, si les valeurs $f(x)$ peuvent être rendues aussi proches que l'on veut de $l$ pour des
+                        valeurs
+                        de $x$ suffisamment proches de $a$.</p>
+                    <p>On écrit alors : \( \lim\limits_{x \to a} f(x) = l\)</p>
+
                 </div>
 
                 <div class="subsubsection">
                     <div class="subsubsection-title">c. Opérations sur les limites</div>
+                    <p>Soient $f$ et $g$ deux fonctions ayant une limite finie ou infinie en $a$ ou en $-\infty$ ou en
+                        $+\infty$.</p>
+                    <b>* Limite de la somme ($f+g$):</b>
+                    <div class="tableau">
+                        <!-- Cellule spéciale avec diagonale -->
+                        <div class="cell diag">
+                            <span class="diag-text-left">f</span>
+                            <span class="diag-text-right">g</span>
+                        </div>
+
+                        <div class="cell">ℓ'</div>
+                        <div class="cell">+∞</div>
+                        <div class="cell">−∞</div>
+
+                        <div class="cell">ℓ</div>
+                        <div class="cell">ℓ + ℓ'</div>
+                        <div class="cell">+∞</div>
+                        <div class="cell">−∞</div>
+
+                        <div class="cell">+∞</div>
+                        <div class="cell">+∞</div>
+                        <div class="cell">+∞</div>
+                        <div class="cell">F.I</div>
+
+                        <div class="cell">−∞</div>
+                        <div class="cell">−∞</div>
+                        <div class="cell">F.I</div>
+                        <div class="cell">−∞</div>
+                    </div>
+
                 </div>
                 <div class="subsubsection">
                     <div class="subsubsection-title">d. Prolongement par continuité</div>

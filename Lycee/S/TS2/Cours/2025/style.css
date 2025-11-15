@@ -53,3 +53,37 @@ h1 {
     font-style: italic;
     color: #cf2c2c;
 }
+
+/* Le tableau s'adapte automatiquement à l'écran */
+.tableau {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 colonnes flexibles */
+    width: 100%;
+    /* Ne dépasse jamais */
+    border: 1px solid black;
+}
+
+.cell {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 5px;
+    font-size: 20px;
+    position: relative;
+}
+
+/* Cellule diagonale */
+
+.diag-text-left {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.diag-text-right {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
